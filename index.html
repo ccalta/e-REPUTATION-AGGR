@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aggregator - Your results</title>
+
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="https://bootswatch.com/paper/bootstrap.min.css">
+   	<link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
+   	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+  	<link rel="stylesheet" type="text/css" href="main.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">AGGREGATOR</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html"> Log to your accounts <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Your results</a></li>
+        <li><a href="about.html">About the project</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="helpus.html">Help the project!</a></li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+	<div class="row">
+		
+		  <h4>You have probably built reputation on several online platforms, <br> but it is hard to have an overall view of your online reputation.<br> We help you by computing your global online reputation score,<br> and we also give you recommendations to improve it!</h4>
+		  <p>It's easy, just 3 steps! Follow the guide...</p>
+		
+	</div>
+</div>
+
+
+<section class="container">
+	<div class="row">
+		<div class="col-lg-6">
+			<form class="form-horizontal">
+		  <fieldset>
+		    <legend>1. Login to these platforms</legend>
+		    	<div class="platforms">
+                <img id="logo" src="logo\fb.jpg"/>
+                <img id="logo" src="logo\twitter.jpg"/>
+            	</div>
+		    		    
+		    
+		  </fieldset>
+		</form>	
+		</div>
+
+		<div class="col-lg-6">
+		<form class="form-horizontal">
+		  <fieldset>
+		    <legend>2. Tell us your usernames on these other platforms</legend>
+		    <div class="form-group">
+		      <img class="col-lg-2 control-label" id="cs" src="logo\couchsurfing.png"/>
+		      <div class="col-lg-10">
+		        <input type="text" class="form-control" id="inputText" placeholder="Your Couchsurfing username">
+		      </div>
+		    </div>
+		    <div class="form-group">
+		      <img class="col-lg-2 control-label" id="bbc" src="logo\blablacar.png"/>
+		      <div class="col-lg-10">
+		        <input type="text" class="form-control" id="inputText" placeholder="Your BlaBlaCar username">
+		      </div>
+		    </div>
+		    <div class="form-group">
+		      <img class="col-lg-2 control-label" id="quora" src="logo\quora.png"/>
+		      <div class="col-lg-10">
+		        <input type="text" class="form-control" id="inputText" placeholder="Your Quora username">
+		      </div>
+		    </div>
+		    <br>		    
+		    <div class="form-group">
+		      <div class="col-lg-10 col-lg-offset-2">		        
+		        <button type="submit" class="btn btn-primary" onclick="location.href='results.html';"><a href=results.html>3. Compute your score!</a></button>
+		      </div>
+		    </div>
+		  </fieldset>
+		</form>
+
+		</div>
+
+	</div>
+</section>
+
+</body>
+</html>
