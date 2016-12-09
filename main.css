@@ -126,3 +126,32 @@ th {
 	width: 60px;
 	margin-right: 10px;
 }
+
+/* About page - Masonry layout i.e div coordinating like a brick wall */
+.container {
+	text-align: center;
+}
+#grid {
+  text-align:center;
+  margin: 0 auto;
+}
+
+/* clearfix */
+#grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- grid-item ---- */
+
+#grid-item {
+  float: middle;
+
+
+}
+
+section {
+	text-align: center;
+}
+
