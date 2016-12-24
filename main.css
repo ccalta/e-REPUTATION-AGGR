@@ -30,9 +30,6 @@ canvas {
 	border-radius: 10px;
 	width: 190px;
 	margin-top: 10px;
-	margin-left: 50px;
-	margin-right: 50px;
-
 	}
 
 img {
@@ -155,3 +152,39 @@ section {
 	text-align: center;
 }
 
+
+#step-title {
+	font-size: 18px;
+    font-weight: 200;
+    color: #666666;
+}
+
+
+.form-control {
+	width: 60%!important;
+}
+
+#tripadvisor, #yelp, #ebay{
+	width: 60px;
+	float: left;
+	margin-right: 10px;
+	margin-top: 9px;
+}
+
+#upwork, #quora, #cs, #bbc {
+	width: 60px;
+	float: left;
+	margin-right: 10px;
+	margin-top: 12px;
+}
+
+.half {
+	width: 50%;
+	float: left;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+#step-line {
+	text-align: center;
+}
